@@ -23,12 +23,13 @@
                  </div>
                 <div class="preciocantidad">
                     <h3>Vintage Backbag</h3>
-                    <h3>$59.99</span> $94.99</span></h3>
+                    <h3>$54.99 <span>$94.99</span></h3>
                     <div class="botonNumero">
                         <button>-</button>
                     <p>1</p>
                     <button>+</button>
                     </div>
+
                 </div>
             </div>
 
@@ -37,12 +38,12 @@
                     <img src="./src/img/photo2.png" alt="bolso">
                  </div>
                 <div class="preciocantidad">
-                    <h3>Levis Shoes</h3>
-                    <h3>$74.99</span> $124.99</span></h3>
+                    <h3>Levi Shoes</h3>
+                    <h3>$74.99 <span>$124.99</span></h3>
                     <div class="botonNumero">
-                        <button>-</button>
+                        <button class="simbolo">-</button>
                         <p>1</p>
-                        <button>+</button>
+                        <button class="simbolo">+</button>
                     </div>
                 </div>
             </div>
@@ -60,13 +61,63 @@
         </section>
         <section id="formulario">
             <div class="contact">
+                <h3>Contact information</h3>
                 <label for="emai">E-mail</label>
                 <div class="inputIcono">
                     <i class="fa-solid fa-envelope"></i>
                     <input type="email" placeholder="Enter your Email...">
                 </div>
+
+                <label for="Phone" id="phone">Phone</label>
+                <div class="inputIcono">
+                    <i class="fa-solid fa-phone"></i>
+                    <input type="email" placeholder="Enter your Phone...">
+                </div>
+            </div>
+
+            <div class="shipping">
+               <h3>Shipping address</h3>
+               <label for="full-name">Full name</label>
+               <div class="inputIcono">
+                <i class="fa-solid fa-circle-user"></i>
+                <input type="button" value="Rodney Cotton">
+               </div> 
+
+               <label for="address">Address</label>
+               <div class="inputIcono">
+                <i class="fa-solid fa-house"></i>
+                <input type="text" id="address" placeholder="Your address..">
+               </div> 
+
+               <label for="city">City</label>
+               <div class="inputIcono">
+                <i class="fa-solid fa-city"></i>
+                <input type="text" id="city" placeholder="Your city..">
+               </div> 
+
+               <div class="country-postal">
+                    <label for="country" id="country">Country</label>
+                    <div class="inputIcono country2">
+                     <i class="fa-solid fa-city"></i>
+                     <input type="text" id="country" placeholder="Your country..">
+                     <i class="fa-solid fa-angle-down"></i>
+                    </div> 
+
+                    <label for="postal-code" id="postal-code">Postal code</label>
+                    <div class="inputIcono country2">
+                        <i class="fa-solid fa-signs-post"></i>
+                     <input type="text" placeholder="Your postal code..">
+                    </div>
+                </div>
+            </div>
+            <div class="checkbox">
+            
+            <label for="requerid"><input type="checkbox" name="requerid" id="requerid">Save this information for next time</label>
             </div>
         </section>
+        <div id="btn-continue">
+            <button class="btn-button">Continue</button>
+        </div>
     </main>
     <footer>
         <p>created by username - devChallenges.io</p>

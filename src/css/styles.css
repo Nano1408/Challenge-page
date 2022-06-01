@@ -12,11 +12,39 @@ body {
     width: 350px;
     height: 489px;
     background-color: #f2f2f2;
+    border-radius: 12px;
+    margin-left: 21px;
+}
+.imagen {
+    width: 161px;
+    height: 124px;
+}
+.imagen img {
+    height: 100%;
+    border-radius: 10px;
 }
 .producto {
     display: flex;
     padding-top: 30px;
     padding-left: 27px;
+}
+.preciocantidad h3:first-of-type{
+    font-size: 12px;
+    line-height: 15px;
+    color: #4e5150;
+    margin-bottom: 1rem;
+}
+.preciocantidad h3:nth-child(2) {
+    font-size: 14px;
+    line-height: 17px;
+    color: #f2994a;
+    margin-bottom: 1.5rem;
+}
+.preciocantidad h3:nth-child(2) span{
+    font-size: 10px;
+    line-height: 12px;
+    color: #4e5150;
+    text-decoration: line-through;
 }
 .botonNumero {
     display: flex;
@@ -30,35 +58,14 @@ body {
 .botonNumero button {
     width: 20px;
     height: 20px;
-    background-color: #0e0e0e;
+    background-color: #E0E0E0;
     border-radius: 4px;
     border: none;
+    color: #828282;
     font-size: 1.3rem;
+    padding-bottom: 25px;
 }
-.imagen {
-    width: 161px;
-    height: 124px;
-}
-.imagen img {
-    height: 100%;
-    border-radius: 10px;
-}
-.preciocantidad h3:first-of-type{
-    font-size: 12px;
-    line-height: 15px;
-    color: #4e5150;
-}
-.preciocantidad h3:nth-child(2) {
-    font-size: 14px;
-    line-height: 17px;
-    color: #f2994a;
-}
-.preciocantidad h3:nth-child(2) span{
-    font-size: 10px;
-    line-height: 12px;
-    color: #4e5150;
-    text-decoration: line-through;
-}
+
 hr {
     margin-left: 27px;
     margin-right: 27px;
@@ -71,6 +78,7 @@ hr {
     margin-right: 27px;
     padding-top: 1rem;
     padding-bottom:1rem;
+    color:#333;
 }
 #divisores{
     margin-top: 4rem;
@@ -82,13 +90,14 @@ hr {
     border: solid 1px #828282;
     border-radius: 12px;
     padding-left: 2rem;
+    margin-bottom: 10px;
 }
 .inputIcono input {
     border: none;
 }
 
 .inputIcono input, .inputIcono i {
-    margin-top: 1rem;
+    margin-top: 0.8rem;
 }
 .inputIcono input::placeholder {
     font-family: 'Montserrat', sans-serif;
@@ -100,4 +109,81 @@ hr {
 
 .inputIcono i{
     color: #828282;
+}
+.contact{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    color: #333333;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+}
+.shipping {
+    padding-top: 45px;
+}
+.shipping h3 {
+    padding-bottom: 11px;
+}
+.inputIcono input:nth-child(2){
+    font-size: 12px;
+    font-weight: 600;
+    background-color: white;
+}
+.inputIcono .fa-angle-down {
+    background-color:#E0E0E0;
+    border-radius: 4px;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    margin-left: -27px;
+    text-align: center;
+}
+.shipping .country2{
+    width: 163px;
+    height: 41px;
+    padding-left: 1rem;
+    overflow: hidden;
+    text-overflow: ellipsis;   
+}
+.country2 input::placeholder {
+    padding-left: 12px;
+}
+
+.country-postal {
+    display: flex;
+}
+.country2 {
+    margin-top: 22px;
+    margin-left: -66px;
+}
+.checkbox, #requerid{
+    margin-top: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    color: #4F4F4F;
+    align-items: center;
+}
+.btn-button{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 200px;
+    margin-bottom: 95px;
+    margin-top: 20.5px;
+    background-color: #F2994A;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    width: 166px;
+    height: 54px;
+    border-radius: 12px;
+    color: #fff;
+}
+
+footer p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-left: 30px;
+    color: #BDBDBD;
 }
